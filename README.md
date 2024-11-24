@@ -4,7 +4,8 @@
 [![Total Downloads](https://poser.pugx.org/srwiez/grpc-protoset/downloads)](https://packagist.org/packages/srwiez/grpc-protoset)
 [![License](https://poser.pugx.org/srwiez/grpc-protoset/license)](https://packagist.org/packages/srwiez/grpc-protoset)
 [![PHP Version Require](https://poser.pugx.org/srwiez/grpc-protoset/require/php)](https://packagist.org/packages/srwiez/grpc-protoset)
-[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/srwiez/grpc-protoset/test.yml?label=Tests)](https://github.com/srwiez/grpc-protoset/actions/workflows/test.yml)
+
+[//]: # ([![GitHub Workflow Status &#40;with event&#41;]&#40;https://img.shields.io/github/actions/workflow/status/srwiez/grpc-protoset/test.yml?label=Tests&#41;]&#40;https://github.com/srwiez/grpc-protoset/actions/workflows/test.yml&#41;)
 
 A simple PHP library to convert a protoset file to proto files.
 
