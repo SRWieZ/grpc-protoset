@@ -24,7 +24,7 @@ composer require srwiez/grpc-protoset
 
 Either use the `ProtosetConverter` class directly.
 ```php
-use SRWiez\GrpcProtoset\ProtosetConverter;
+use SRWieZ\GrpcProtoset\ProtosetConverter;
 
 $protoset = new ProtosetConverter();
 $protoset->setOutputDir('./proto');
