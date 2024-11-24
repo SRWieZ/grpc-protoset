@@ -3,7 +3,11 @@
 
 use SRWieZ\GrpcProtoset\ProtosetConverter;
 
-include $_composer_autoload_path ?? __DIR__.'/../vendor/autoload.php';
+error_reporting(E_ALL ^ E_DEPRECATED ^ E_NOTICE);
+
+if (! class_exists('\Composer\InstalledVersions')) {
+    require __DIR__.'/../vendor/autoload.php';
+}
 
 $filename = $argv[1] ?? null;
 if (! $filename) {
