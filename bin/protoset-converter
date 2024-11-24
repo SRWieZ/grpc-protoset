@@ -3,4 +3,4 @@
 
 include $_composer_autoload_path ?? __DIR__.'/../vendor/autoload.php';
 
-require __DIR__.'/../cli/cli-converter.php';
+require __DIR__.'/../cli/converter.php';
