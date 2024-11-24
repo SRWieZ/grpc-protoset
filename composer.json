@@ -1,0 +1,50 @@
+{
+  "name": "srwiez/grpc-protoset",
+  "description": "Convert a protoset file to a directory of .proto files",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SRWieZ\\GrpcProtoset\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Eser DENIZ",
+      "email": "srwiez@gmail.com"
+    }
+  ],
+  "bin": [
+    "bin/protoset-converter"
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3",
+    "ext-grpc": "*",
+    "google/protobuf": "^4.28"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.18",
+    "pestphp/pest": "^3.5",
+    "phpstan/phpstan": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest -p",
+    "pint": "./vendor/bin/pint",
+    "phpstan": "./vendor/bin/phpstan",
+    "static": [
+      "@composer pint",
+      "@composer phpstan"
+    ],
+    "qa": [
+      "@composer pint",
+      "@composer phpstan",
+      "@composer test"
+    ]
+  }
+}
