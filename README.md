@@ -100,7 +100,7 @@ gRPC Protoset Converter was created by Eser DENIZ.
 The following projects inspired this library and served as a reference:
 
 - https://github.com/ewilken/starlink-rs
-- https://github.com/sparky8512/starlink-grpc-tools/tree/main
+- https://github.com/sparky8512/starlink-grpc-tools
 - https://github.com/fullstorydev/grpcurl
 
 ## 📝 License
