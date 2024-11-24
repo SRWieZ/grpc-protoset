@@ -18,6 +18,7 @@ jobs:
         with:
           php-version: '8.3'
           tools: composer:v2
+          extensions: grpc
 
       - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
