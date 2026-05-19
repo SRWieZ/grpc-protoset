@@ -25,8 +25,8 @@
   },
   "require-dev": {
     "laravel/pint": "^1.18",
-    "pestphp/pest": "^3.5",
-    "phpstan/phpstan": "^2.0"
+    "pestphp/pest": "^3.5|^4.0",
+    "phpstan/phpstan": "^2.0|^3.0"
   },
   "config": {
     "allow-plugins": {
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "test": "./vendor/bin/pest -p",
-    "pint": "./vendor/bin/pint",
+    "pint": "./vendor/bin/pint -p",
     "phpstan": "./vendor/bin/phpstan",
     "static": [
       "@composer pint",
